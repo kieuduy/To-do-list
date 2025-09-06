@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do-list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>To-do-list</h1>
+    <div class="containers">
+        <p class="date">04/09/2025</p>
+        <div class="inner-container">
+            <input type="checkbox" id="checkbox1" class="checkboxs" onclick="checked_box()">
+            <input type="text" class="tasks_name" placeholder="write your task...">
+            <div class="selection">
+                <div class="selected">Chill</div>
+                <ul class="options-container">
+                    <li class="chill">Chill</li>
+                    <li class="mid">Medium</li>
+                    <li class="important" >Important</li>
+                </ul>
+            </div>
+        </div>
+        <hr>
+        
+        <button class="add_btn" onclick="addNewTask()">+</button>
+
+         
+
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
