@@ -68,6 +68,7 @@ function addNewTask(){
     const newClone = inner_container.cloneNode(true);
     
     newClone.querySelector(".tasks_name").value = "";
+    newClone.querySelector(".tasks_name").style.color = "black";
     newClone.querySelector(".checkboxs").checked = false;
 
     // newClone.createElement("hr");
@@ -103,6 +104,7 @@ function addNewTask(){
     }
 
 }
+
 
 
 
