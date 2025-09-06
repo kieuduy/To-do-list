@@ -12,7 +12,7 @@ function checked_box(){
         checkbox.nextElementSibling.style.color = "red"
         }
         else{
-            checkbox.nextElementSibling.style.color = "black"
+            checkbox.nextElementSibling.style.color = "grey"
             console.log("unchecked!")
         }
     })
@@ -103,5 +103,6 @@ function addNewTask(){
     }
 
 }
+
 
 
