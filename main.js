@@ -9,10 +9,10 @@ function checked_box(){
     checkboxs.forEach(checkbox => {
         if(checkbox.checked == true){
         console.log("checked!")
-        checkbox.nextElementSibling.style.color = "red"
+        checkbox.nextElementSibling.style.color = "grey"
         }
         else{
-            checkbox.nextElementSibling.style.color = "grey"
+            checkbox.nextElementSibling.style.color = "black"
             console.log("unchecked!")
         }
     })
@@ -103,6 +103,7 @@ function addNewTask(){
     }
 
 }
+
 
 
 
